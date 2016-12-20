@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Sign Up</title>
+</head>
+<body id="signUpBody">
+
+<style>
+    body {
+        background-color: antiquewhite;
+    }
+
+    #signUph2 {
+        margin-top: 100px;
+    }
+
+    #inputs{
+        vertical-align: text-top;
+    }
+</style>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Frederiks Private Web Page</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="../HTML/Index.html">Home</a></li>
+            <li><a href="../HTML/userInformation.html">Test 1</a></li>
+            <li><a href="#">Page 2</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+    </div>
+</nav>
+
+<h2 id="signUph2">Sign Up!</h2>
+
+<div id="inputs" class="container">
+    <div class="col-xs-3">
+        <label for="usr">Name:</label>
+        <input type="text" class="form-control" id="usr" placeholder="Username">
+    </div>
+
+    <div class="col-xs-3">
+        <label for="email">Email:</label>
+        <input type="text" class="form-control" id="email" placeholder="Email Address">
+    </div>
+
+    <div class="col-xs-3">
+        <label for="pwd">Password:</label>
+        <input type="password" class="form-control" id="pwd" placeholder="Password">
+    </div>
+</div>
+
+</body>
+</html>
